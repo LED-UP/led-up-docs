@@ -46,3 +46,20 @@ _SSI Implementation of the on Alastria Network_
 If we are going to use the existing built-in SSI technology, perhaps we may need to rethink about the choice of the network as it is working only Alastria Red-T Network.
 
 - they have Typescript Alastria Identity Library that we can utilize for our application in any specific use case.
+
+
+# Deploy Hyperledger Besu Node on Alastria Network
+
+> - The new node owner installs the software in a machine (physical or virtual) that complies with the minimum requirements.
+> - The new node owner requests inclusion of the node into the network by creating a pull request with some of the information created during the installation process, including the unique address of the node (enode).
+>  - The rest of the network nodes update automatically their permissioning information, and allow the new node to connect.
+> - The new node is already part of the Alastria network.
+
+
+
+# Links and Resources
+- _GoQuorum Offical Repo_: https://github.com/Consensys/quorum
+- _ZSL Proof of Concept_: https://github.com/Consensys/quorum/wiki/ZSL
+- _Alastria Platform En_: https://github.com/alastria/alastria-platform-TO_BE_UPDATED/tree/master/en
+- _Regular Nodes List_: https://github.com/alastria/alastria-node/blob/testnet2/DIRECTORY_REGULAR.md
+
