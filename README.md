@@ -80,8 +80,9 @@ Contributions to improve the documentation are welcome. Please follow these step
 
 ## License
 
-[Add your license information here]
+AGPL-3.0 license
 
 ## Contact
 
-[Add contact information or links to project resources]
+led-up@modern-miracle.com
+
