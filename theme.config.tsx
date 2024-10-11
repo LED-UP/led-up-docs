@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
     link: '', // Next.js discord server,
   },
 
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/core/examples/docs',
+  docsRepositoryBase: 'https://github.com/NGI-TRUSTCHAIN/LED-UP',
   editLink: {
     content: 'Edit this page on GitHub',
   },
