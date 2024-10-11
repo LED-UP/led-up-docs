@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { DocsThemeConfig } from 'nextra-theme-docs';
 import { useConfig } from 'nextra-theme-docs';
 
@@ -12,7 +13,7 @@ const config: DocsThemeConfig = {
   },
 
   chat: {
-    link: 'https://discord.gg/hEM84NMkRv', // Next.js discord server,
+    link: '', // Next.js discord server,
   },
 
   docsRepositoryBase: 'https://github.com/shuding/nextra/blob/core/examples/docs',
@@ -53,8 +54,9 @@ const config: DocsThemeConfig = {
   },
 
   logo: (
-    <span>
-      LED-UP: <span>Documentation</span>
+    <span className="flex items-center gap-3">
+      <Image src="/logo.png" alt="LED-UP Logo" width={45} height={45} />{' '}
+      <span className="text-4xl text-slate-900 font-bold">LED-UP</span>
     </span>
   ),
 };
