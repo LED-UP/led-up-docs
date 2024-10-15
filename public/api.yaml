@@ -82,6 +82,28 @@ paths:
               example:
                 record: 'Sample record'
 
+    /getProducerRecords:
+    get:
+      summary: Get Producer Records with corresponding record status, consent status, record Ids and nonce
+      parameters:
+        - in: query
+          name: producer
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  record:
+                    type: string
+              example:
+                record: 'Sample record'
+
   /getProducerRecordInfo:
     get:
       summary: Get Producer Record Info
